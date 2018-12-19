@@ -1,0 +1,28 @@
+MAN KAN IKKE BUILD'E FRA INTELLIJ!
+
+Brug istedet:
+ant clean install
+
+"clean install" er en del af "server-install"
+
+Hvis man har kørt en "clean install" kan man nøjes med at køre en "install-no-build"?
+
+ant asstop clean install hot-deploy asstart
+ant asstop install hot-deploy asstart
+
+ant run&
+
+2.3
+4.2
+
+mfw pfpas aipas
+
+ant reset-ifdb
+ant reset-i2db
+
+[‎11-‎12-‎2018 13:32]  Rune Dissing:  
+ant -Dsuite.class=dk.systematic.epj.pfpas.reporting.service.dao.lpr3.TestCase_LPR3EntityService bvt-modules 
+ 
+ant -Dsuite.class=dk.systematic.epj.pfpas.reporting.service.dao.lpr3.TestCase_LPR3EntityService bvt-modules
+
+Tjek om data afhænger af specifikke afdelingskoder
