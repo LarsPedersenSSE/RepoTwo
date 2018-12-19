@@ -25,4 +25,4 @@ ant -Dsuite.class=dk.systematic.epj.pfpas.reporting.service.dao.lpr3.TestCase_LP
  
 ant -Dsuite.class=dk.systematic.epj.pfpas.reporting.service.dao.lpr3.TestCase_LPR3EntityService bvt-modules
 
-Tjek om data afhænger af specifikke afdelingskoder
+Tjek om alt data afhænger af specifikke afdelingskoder
